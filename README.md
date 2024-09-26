@@ -7,6 +7,8 @@ You can create a surface and pass it to `open_in_block_kit_builder` in `preview.
 
 ## Explanation and Examples
 
+Every message that is sent in slack includes a **Message Payload**. This payload includes a `blocks` property. The `blocks` property holds JSON that configures the structure and style of the message in the form of a list of blocks. This code represents the block JSON first as a list of dictionaries that can be combined. Then they can be converted into JSON and passed to the `blocks` property.  
+
 The `prototype_v1.py` file includes code that gives the basic idea. It's basically a first draft. 
 
 The `surfaces` folder shows how you might structure the code in a directory. 
