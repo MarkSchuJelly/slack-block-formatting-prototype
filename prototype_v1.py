@@ -227,6 +227,7 @@ def get_focused():
 		}
     ]
 
+
 # Messages
 
 def daily_digest(team):
@@ -248,3 +249,4 @@ def monday_team_jumpstart(team):
 open_in_block_kit_builder(
     monday_team_jumpstart('Champy')
 )
+
